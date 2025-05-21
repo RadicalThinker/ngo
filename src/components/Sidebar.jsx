@@ -106,7 +106,10 @@ export default function Sidebar() {
 
   return (
     <div className="w-64 bg-white border-r border-gray-200 p-4 h-full overflow-auto">
+      <Link href="/">
       <h1 className="text-xl font-bold mb-6">Rehab Center</h1>
+      
+      </Link>
       <nav>
         <ul className="space-y-1">
           {navStructure.map((section) => (
